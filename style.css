@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(155, 187, 187);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myTaff {
+    width: 300px;
+    height: 540px;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 25px;
+}
+
+.containerLogo {
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.cercle img {
+    width: 150px;
+}
+
+form input {
+    display: block;
+    margin: 20px auto;
+    outline: 0;
+    background: rgb(224, 217, 217);
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+    outline: 0;
+    background: rgb(224, 217, 217);
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.txt {
+    text-align: center;
+}
+
+.txt a {
+    text-decoration: none;
+}
